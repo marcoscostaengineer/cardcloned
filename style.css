@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f7f7f7;
+  color: #333;
+}
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+input[type="text"], input[type="password"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+input[type="text"]:focus, input[type="password"]:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #4CAF50;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+button:hover {
+  background: #45a049;
+}
+.message {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 6px;
+}
+.message.success {
+  background: #dff0d8;
+  color: #3c763d;
+}
+.message.error {
+  background: #f2dede;
+  color: #a94442;
+}
+@media (max-width: 500px) {
+  .container {
+    margin: 20px;
+    padding: 15px;
+  }
+}
