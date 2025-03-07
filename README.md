@@ -10,18 +10,6 @@ Este projeto foi desenvolvido exclusivamente para fins de estudo e aprendizado s
 - **JavaScript (AJAX)**: Comunicação assíncrona com o servidor e aplicação de máscaras nos campos de entrada.
 - **PHP**: Processamento dos dados e armazenamento em um arquivo `.txt`.
 
-## Melhorias Implementadas
-- Aplicação de máscaras nos campos do formulário:
-  - Nome: Apenas letras.
-  - CPF: Formato `000.000.000-00`.
-  - Número do Cartão: Formato `0000 0000 0000 0000`.
-  - Validade: Formato `MM/AA`.
-  - CVV: Apenas 3 ou 4 dígitos.
-- Melhorias visuais:
-  - Campos e formulário com bordas arredondadas.
-  - Melhor experiência responsiva para dispositivos móveis.
-  - Mensagens de retorno estilizadas, semelhantes a sistemas bancários.
-
 ## Como Funciona
 1. O usuário insere os dados no formulário.
 2. O JavaScript envia os dados via AJAX para o servidor PHP.
